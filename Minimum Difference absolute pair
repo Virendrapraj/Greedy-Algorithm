@@ -1,0 +1,13 @@
+public class DifferPair {
+    public static void main(String[] args) {
+        int a  [] =  { 4,5,7,};
+        int b[] = { 6,8,9};
+        // if the array is not sort then you sort the array 
+        int minDiff = 0;
+        for (int i = 0; i <a.length ; i++) {
+            minDiff += Math.abs(a[i] - b[i]);
+
+        }
+        System.out.println("This is a absolute difference Array pair : "+ minDiff);
+    }
+}
